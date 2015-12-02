@@ -36,7 +36,7 @@ To perform the SSA analysis run one of the following:
 
 To see the effects of adding a low-pass filter for noise, run 'CutoffGraphs.py'
 
-'CTL.py' contains the mathematical functions used in the scripts.
+'CTL.py' contains the mathematical functions used in the scripts.  
 'datamanager.py' contains functions to manage/parse the data in a very quick manner.
 
 ## Experimental

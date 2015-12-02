@@ -1,0 +1,22 @@
+PhysioNet:
+http://physionet.org/physiobank/database/sddb/ - Record 31, both signals
+
+Population Data:
+https://www.imperial.ac.uk/cpb/gpdd2/showdata.aspx?dataset=1964 - Sockeye Salmon BC
+https://www.imperial.ac.uk/cpb/gpdd2/showdata.aspx?dataset=1663 - Chum Salmon Alaska
+https://www.imperial.ac.uk/cpb/gpdd2/showdata.aspx?dataset=20573 - Northern Elephant Seal California
+https://www.imperial.ac.uk/cpb/gpdd2/showdata.aspx?dataset=158 - Beaver Alaska
+
+Dow Jones:
+See DowJones.xlsx in financialdata folder
+
+Climate:
+** NOTE **
+There is missing data for 2010, and random invalid data points (99 Celsius) from this dataset that were removed.
+The Air Temperatures were used for analysis
+http://www.ndbc.noaa.gov/station_history.php?station=51004 - Standard Meteorological Data
+
+http://www.metoffice.gov.uk/hadobs/
+
+Programming Related:
+https://media.readthedocs.org/pdf/h5py/latest/h5py.pdf - h5py documentation

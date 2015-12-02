@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -S /bin/bash
+
+# Script to run the viaduct analysis
+
+#PBS -l mem=1500mb
+
+cd $PBS_O_WORKDIR
+echo "Current working directory is `pwd`"
+
+echo "Starting run at: `date`"
+module load python/2.7.5.anaconda
+python ./vibration.py
+echo "Job finished with exit code $? at: `date`"

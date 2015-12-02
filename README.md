@@ -1,12 +1,12 @@
 # Singular Spectrum Analysis (SSA)
 These Python scripts are used to perform singular spectrum analysis on various signals retrieved from the internet to
-predict critical transitions in a time series. During a critical transition the dimensionality (v here) will decrease
-as the system is driven towards a critical point. During the decrease in dimensionality, variance and autocorrelation
+predict critical transitions in a time series. During a critical transition the dimensionality (v) will decrease as 
+the system is driven towards a critical point. During the decrease in dimensionality, variance and autocorrelation
 will experience increases however these indicators are not known to work well for time series with a small sample size
-or large noise.  
+or large amounts of noise.  
   
 These scripts were created for research Takashi Nakamura was performing on SSA, and their results were shown at Montreal's High
-Performance Computing Symposium 2015. More research on these methods have yet to be done.
+Performance Computing Symposium 2015. More research on these methods are required.
 
 To skim down on the size of the repository, the original vibration text files and PhysioNet data (> 1 GB!) were excluded.
 

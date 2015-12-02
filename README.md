@@ -25,7 +25,7 @@ SSA on Air Temperature
 ![AirTemp](/climatedata/AirTemp1indicators500.png)
 
 SSA on Dow Jones index
-![Financial](/financialdata/DowJonesClose1Indicators500.png)
+![Financial](/financialdata/DowJonesClose1indicators500.png)
 
 Running a low-pass filter over the data before the SSA was also investigated, with the resulting graph below.
 ![lpf](/cutoffgraphs/indicatorslopes.png)

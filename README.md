@@ -42,4 +42,4 @@ To see the effects of adding a low-pass filter for noise, run 'CutoffGraphs.py'
 ## Experimental
 A folder named experimental contains modified scripts which add support for timestamps in the form of 'yyyy-mm-ddThh:mm:ss',
 and add support for Pandas dataframes. This was seperated as the scripts currently run on the provided vibration examples, but
-currently don't run on the previous examples used. 
+currently don't work on the previous examples used. 

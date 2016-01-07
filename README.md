@@ -32,7 +32,7 @@ Running a low-pass filter over the data before the SSA was also investigated, wi
 
 ## How to run
 To perform the SSA analysis run one of the following:
-'Climate.py', 'financial.py' ('PhysioNet.py' doesn't have required data for reasons above)
+'Climate.py', 'financial.py' ('PhysioNet.py' doesn't have required data due to size constraints)
 
 To see the effects of adding a low-pass filter for noise, run 'CutoffGraphs.py'
 

@@ -13,9 +13,9 @@ To skim down on the size of the repository, the original vibration text files an
 ## Results
 Here are some sample graphs produced, check data sources readme to see where the data came from.
 
-v = dimensionality
-lambda_one = largest eigenvalue
-sigma^2 = variance
+v = dimensionality  
+lambda_one = largest eigenvalue  
+sigma^2 = variance  
 s = sample index
 
 SSA on a heart EKG looking at sudden cardiac death (data from PhysioNet)
@@ -40,6 +40,4 @@ To see the effects of adding a low-pass filter for noise, run 'CutoffGraphs.py'
 'datamanager.py' contains functions to manage/parse the data in a very quick manner.
 
 ## Experimental
-A folder named experimental contains modified scripts which add support for timestamps in the form of 'yyyy-mm-ddThh:mm:ss',
-and add support for Pandas dataframes. This was seperated as the scripts currently run on the provided vibration examples, but
-currently don't work on the previous examples used. 
+A folder named experimental contains modified scripts which add support for timestamps in the form of 'yyyy-mm-ddThh:mm:ss', and add support for Pandas dataframes. This was separated as the scripts currently run on the provided vibration examples, but haven't been converted to run on the old examples
